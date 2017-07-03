@@ -4,7 +4,7 @@ A simple web shell with an interactive console for use in CTFs, wargames, etc.
 ![Geist](https://github.com/jubal-R/WebShell/blob/master/screenshot.png)
 
 ## Usage
-- Connect:
+- Connect:  
 ./webshellconnect.py [url]  
 Example: ./webshellconnect.py 192.168.56.104/webshell.php
 - Send Commands:  
