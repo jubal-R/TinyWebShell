@@ -1,10 +1,15 @@
 # WebShell
-Web shell with interactive console for use in CTFs, pentesting, etc.
+A simple web shell with an interactive console for use in CTFs, wargames, etc.
 
-##webshellconnect:
-Usage: ./webshellconnect.py [url]
+![Geist](https://github.com/jubal-R/WebShell/blob/master/screenshot.png)
+
+## Usage
+- Connect
+./webshellconnect.py [url]
 Example: ./webshellconnect.py 192.168.56.104/webshell.php
+- Send Commands
+Enter commands into console after connecting
 
-##Features to be added:
-Add file upload
-Support additional php functions
+## Features to be added
+File upload
+Support for additional php functions
