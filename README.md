@@ -1,14 +1,15 @@
 # Tiny Web Shell
-A simple web shell with an interactive console for use in CTFs, wargames, etc.
+A simple php web shell and client with an interactive console for use in CTFs, wargames, etc.
 
 ![Geist](https://github.com/jubal-R/WebShell/blob/master/screenshot.png)
 
 ## Usage
-- Connect:  
-./webshellconnect.py [url]  
-Example: ./webshellconnect.py 192.168.56.104/webshell.php
-- Send Commands:  
-Enter commands into console after connecting
+Upload the webshell, then just run the client specifying the address of the shell and start sending commands.  
+- Running The Client  
+`./webshellconnect.py [url]`  
+Example: `./webshellconnect.py 192.168.56.104/webshell.php`
+- Sending Commands  
+Enter commands into the console
 
 ## Features
 - Small size
