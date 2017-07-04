@@ -1,4 +1,4 @@
-# WebShell
+# Tiny Web Shell
 A simple web shell with an interactive console for use in CTFs, wargames, etc.
 
 ![Geist](https://github.com/jubal-R/WebShell/blob/master/screenshot.png)
