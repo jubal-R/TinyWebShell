@@ -1,5 +1,5 @@
 # Tiny Web Shell
-A simple php web shell and client with an interactive console for use in CTFs, wargames, etc.
+A simple php web shell and client with an interactive console for use in CTFs, wargames, etc. The goal is to keep the web shell tiny by moving as much code as possible to the client side.  
 
 ![Geist](https://github.com/jubal-R/WebShell/blob/master/screenshot.png)
 
