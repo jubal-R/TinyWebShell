@@ -10,12 +10,16 @@ Upload the webshell, then just run the client specifying the address of the shel
 Example: `./webshellconnect.py 192.168.56.104/webshell.php`
 - Sending Commands  
 Enter commands into the console
+- Running scripts
+Run any script located in the scripts directory  
+`run [filename]`  
+example: `run get_info.sh`
 
 ## Features
 - Small size
-- Easy to use console
+- Run custom scripts
 - Commands sent via accept language header
-- Obfuscation
+- Obfuscation of php code
 
 ## Features to be added
 File upload  
